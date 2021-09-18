@@ -20,8 +20,10 @@
   <br>
   **_ Intermediate Operations : _** Stateless Operations, such as filter and map, retain no state from previous element.  Stateful Operations, such as distinct and sorted, may have state from the previous elements. 
   <br>
-  **_ Terminal Operations : _**  Operations, such as Stream.forEach or IntStream.sum, may traverse the stream to produce a result or a side-effect. When the terminal operation is performed, the stream pipeline is considered consumed, and can no longer be used.
+  **_ Terminal Operations : _**  Operations, such as Stream.forEach or IntStream.sum, may traverse the stream to produce a result or a side-effect. When the terminal operation is performed, the stream pipeline is considered consumed, and can no longer be used. 
+  <br>
   **_ Reductional Operations : _**  The general reductionoperations are reduce () and collect () and the special reductionoperations are sum (), max (), or count ().  
+  <br>
   **_ Parallelism : _** All the operations of streams can be executed either in serial or in parallel. For example, Collection has methods Collection.stream() and Collection.parallelStream(), which produces sequential and parallel streams respectively.
 
 <br> <br>
